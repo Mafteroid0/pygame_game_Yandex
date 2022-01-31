@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f13480fe-39d6-409a-ba62-305a2de33752" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="23V76ZcFFFytpif21CsfYjZWThH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Проекты\петон\pygame\кликер с полинкой" />
+      <recent name="D:\Проекты\петон\pygame\кликер с полинкой\sprites" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Проекты\петон\pygame\кликер с полинкой" />
+      <recent name="D:\Проекты\петон\pygame\кликер с полинкой\tovar" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="кликер с полинкой" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f13480fe-39d6-409a-ba62-305a2de33752" name="Changes" comment="" />
+      <created>1641807227964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641807227964</updated>
+    </task>
+    <task id="LOCAL-00001" summary="pre_prototype_ver_0.1&#10;&#10;added:&#10;- Main window&#10;- score&#10;- Button witch adds score&#10;- saving score when closing&#10;- reset button (Debug)">
+      <created>1641814445708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641814445708</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pre_prototype_ver_0.2&#10;&#10;added:&#10;- Shop prototype&#10;    - Main objects hide when user turns into &quot;Shop mode&quot;&#10;    - Main objects come back when user buys smth in shop (no &quot;leave from shop &quot; button rn&#10;    - When user buys smth, points (money) removes from score (20p)">
+      <created>1642094759257</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642094759257</updated>
+    </task>
+    <task id="LOCAL-00003" summary="pre_prototype_ver_0.3&#10;&#10;добавлено движение персонажа&#10;изменен вход в магазин&#10;изменен размер окна">
+      <created>1642583714056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642583714056</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pre_prototype_ver_0.4&#10;&#10;добавлена работа магазина&#10;добавлен новый товар &quot;плюс к кликам&quot; - при его покупки клики будут приносить больше поинтов&#10;при покупке, цена на товар возрастает в 2 раза">
+      <created>1642590258973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642590258973</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pre_prototype_ver_0.5&#10;&#10;Добавлена 1 новая комната&#10;Добавлена возможность переходить из комнаты в комнату">
+      <created>1642838639097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642838639097</updated>
+    </task>
+    <task id="LOCAL-00006" summary="pre_prototype_ver_0.6&#10;&#10;Добавлена анимация движения главного персонажа">
+      <created>1642998349074</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642998349074</updated>
+    </task>
+    <task id="LOCAL-00007" summary="alpha_ver_1">
+      <created>1643649162477</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643649162477</updated>
+    </task>
+    <task id="LOCAL-00008" summary="alpha_ver_1">
+      <created>1643649254401</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643649254401</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pre_prototype_ver_0.1&#10;&#10;added:&#10;- Main window&#10;- score&#10;- Button witch adds score&#10;- saving score when closing&#10;- reset button (Debug)" />
+    <MESSAGE value="pre_prototype_ver_0.2&#10;&#10;added:&#10;- Shop prototype&#10;    - Main objects hide when user turns into &quot;Shop mode&quot;&#10;    - Main objects come back when user buys smth in shop (no &quot;leave from shop &quot; button rn&#10;    - When user buys smth, points (money) removes from score (20p)" />
+    <MESSAGE value="pre_prototype_ver_0.3&#10;&#10;добавлено движение персонажа&#10;изменен вход в магазин&#10;изменен размер окна" />
+    <MESSAGE value="pre_prototype_ver_0.4&#10;&#10;добавлена работа магазина&#10;добавлен новый товар &quot;плюс к кликам&quot; - при его покупки клики будут приносить больше поинтов&#10;при покупке, цена на товар возрастает в 2 раза" />
+    <MESSAGE value="pre_prototype_ver_0.5&#10;&#10;Добавлена 1 новая комната&#10;Добавлена возможность переходить из комнаты в комнату" />
+    <MESSAGE value="pre_prototype_ver_0.6&#10;&#10;Добавлена анимация движения главного персонажа" />
+    <MESSAGE value="alpha_ver_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="alpha_ver_1" />
+  </component>
+</project>
