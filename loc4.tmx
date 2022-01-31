@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="60" height="34" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" name="Basic_Grass_Biom_things_1" tilewidth="16" tileheight="16" tilecount="45" columns="9">
+  <image source="Basic_Grass_Biom_things_1.png" width="144" height="80"/>
+ </tileset>
+ <tileset firstgid="46" name="First_Asset_pack" tilewidth="16" tileheight="16" tilecount="576" columns="24">
+  <image source="First_Asset_pack.png" width="384" height="384"/>
+ </tileset>
+ <tileset firstgid="622" name="Solaria_Demo_Update_01" tilewidth="16" tileheight="16" tilecount="420" columns="28">
+  <image source="Solaria_Demo_Update_01.png" width="448" height="240"/>
+ </tileset>
+ <tileset firstgid="1042" name="пробник2" tilewidth="16" tileheight="16" tilecount="2376" columns="54">
+  <image source="пробник2.png" width="864" height="705"/>
+ </tileset>
+ <layer id="1" name="Слой тайлов 1" width="60" height="34">
+  <data encoding="base64" compression="zlib">
+   eJy9WMFtwzAMNOLO0AC1p8ijY7TD2HvYyxToeE2AEhCII3mkBD+IKAol6MTjicwyT9MKbGlsVeNVjbU/a691222aDsO2xk5jHtnR+Ot57ywap3UHei7Cvyq8CHOEx/I5ArwIl4UlG3+0Vu/7OscOcLDYd/KuZD7CmYkfw2vtY2HbAS49V8mFnrzUfmxcW382Jxl+M3tl8jLKcfbu2vFj9nFsAYZsLmTyMsKIsHp38f60zxnzEXG3R5dbPjN5iWJm6XjEa/l8zDgGVjy9O4h0WcYZfB62CLeO6/0/th6PI+wZXWbwRlrrYVsAvrvC2Z7lNM6oY4pyNFOjZPPS4ipa18bRyik513nD8UF6VNFlnb+eblVN8hPF0cpbNp+rNQrL0YquIT06wbmY+tCaz9YoGX21MFpvl8Yr+oni4vHWiqPH3yi+I3kse7V8tt6J37dx9kOY97YwtZenbV9P+wAxbrl2FU4xtp5k6gi0j9Ys4a58z56315h6kuG55fOK8beK8674fCXeLC6G72gfrV17E98r+ZzB4/mgT11zIL28UqsivEyMLV5HONv3qaduyu7H1JOVmtPqffQZon5mM3yq+zF9HjOO8Fb7GWu+uh/b5zE+7W+otqr0M9a5q/tVctTz8fhc6WfEpD7x7pDZj+nzGB/r/UFvbqafsXCN7o96TWrJqpb2aLCXD2y9kekFW073anN1nfaRvozp87y6Ofq9R0tHa/pIPiPdWuY+LR2t6ZrPER5Pj611VS3t0WCk6XIvTJ+X1WaNt6qlIzVd8peNq8dfrx6xzsj819S7Dt2fF1cGf1RzM7Hw4pNdF9kf98XIfQ==
+  </data>
+ </layer>
+ <layer id="2" name="Слой тайлов 2" width="60" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztmM0Jg0AQhWURYhfxHOPZdJWybMEaUlVWvATRuOrMvnnJfDDgQWX+H7tF4UjQfDzfYV7Y5xUw30rTbL9Ci/fvRIt2QAiGXtWe7Zviv9F7yef1OOjaseH50mWP5uSuBVvtLfmrqT9bPEO6oRlKGUNwRIdRvkpzib1TJfTPr8R7jbHWifPC2MtzuhjrI9N+6EO6nWFJa8c9vXZe2qMn0tpjScsc2+Q+D3pvcsFcL+SdXI68MdzVObL8S82/6RLzTkJgOV8W7qM188M0r28BHDlD
+  </data>
+ </layer>
+ <layer id="3" name="Слой тайлов 3" width="60" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1ksKgCAQgGGpA5Rt64x1Dw9S16wWgYjgC8zH/4Gg+GBmmIVCAAAAoFfL3wEEqClWINY+CHEkjpooLd7Z2Jsc64/0vF+CN98S4wqxjv5nVWQ/llSjLTJfWw5Sm5v9aiONd3zu5HQ++V6JA8hJuo909d/0qQfQEnoeANCSG2BWFms=
+  </data>
+ </layer>
+</map>

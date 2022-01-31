@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="60" height="34" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="Basic Grass Biom things 1" tilewidth="16" tileheight="16" tilecount="45" columns="9">
+  <image source="Basic_Grass_Biom_things_1.png" width="144" height="80"/>
+ </tileset>
+ <tileset firstgid="46" name="Solaria Demo Update 01" tilewidth="16" tileheight="16" tilecount="420" columns="28">
+  <image source="Solaria_Demo_Update_01.png" width="448" height="240"/>
+ </tileset>
+ <tileset firstgid="466" name="пробник2" tilewidth="16" tileheight="16" tilecount="2376" columns="54">
+  <image source="пробник2.png" width="864" height="705"/>
+ </tileset>
+ <layer id="1" name="Слой тайлов 1" width="60" height="34">
+  <data encoding="base64" compression="zlib">
+   eJy1WVuSxCAIzJ0m94j3P83ux6TKYqAfqB/UZEtEaNrWZD/XdT3/9hHsmXzf3/G1+Kz4P4l9wi+aj2KwOubn+2uV/7h+8x5JLORf1eHMRzEqq3JEWEV8s2fFP6vDmV/FyHo11zOKdU4bquNEDNTf1Ty6dmI9pg8O73fXUXFN1aKqzmw+472qa0jrOjkyU3JGelj1BsV28nFr7eKHzgWF911dczBYwQvtjc6aytoVZ+ZY8Zxk/dtVv8P7yGvEPZV/3Rqyeas8QPcApGssB6YziGPo/qRg5PBejelo2jt2g/wj9lW8ExxSY86+dzFX0XJ0hrD8VzTIiRnjKdxVc1XmIw3q1qzEzGqt/t6tu9k+qHrsaKx6nit1vXrEeqru3UyD0HtYNybC5SliM9vZ95j3KXO0FI1nue7UXjdmtT+zut59U/llewq9PymYZb4Kv7K6Yv6rPGB4ZWuwdzzVt7t+FXcFhxV+qr4ndINxVMVc0QRHP2arzozsDGP7IrtHVnvH4emOOudezLWzMxMZwodxuDpLM42J92/Ft8JfrXmAWJ078jDWY1xA37d3mNP/rkY532l3fBdmtoJHF79OjifHHT9VnzOcOvW+mnlvHHf81FiRD6u4szjquOOHfJS1VazYvWB13PFz3nGU/8upuLP+O+OOn7MPIzYqVtk9IMOjM+74IR9Wwx+kDuH+
+  </data>
+ </layer>
+ <layer id="2" name="Слой тайлов 2" width="60" height="34">
+  <data encoding="base64" compression="zlib">
+   eJy9WNtNA0EMzBcpgUj5JC0AdQB1AHVAH0mdnKVYsix7PPYmjHTKY8+vWdvru+Mux/N2vWzXa/Hfycm9bdf7dn1cf/8m+j+362u7voEPXjeyI7iY74/Xz6Ox1dXHxMLEkSHis4rB2mH2o6NvGov34ym5L+KYiSGTj/ajoy+Cle/EEfFs+dwnsll9ePkMrD42FjYOFiv1IfD72dE3iUVkHkae5ohyspNblb4fsxbt/zHR4+89JPoVakd58zHoehZDtR8sJ2ezhurd8oKQ+at2rI1b10dXH8qPihdFVUPIBtJ7D7DcRj6j/bc1EfGhteH1ZrUkqLjJ1ic6I17OuxxaE5dgzdad56I7MzHrKzrvhUvyvZqZqvWOTpTfvlc/ut8rdcnOTJ2ZanUOq8DmSVRb7MzEzGhdnQJ/zkVc+d7Fzj2nBdnOjMbqVF/sPkR7h3qXQPmMuKpkM7nOOiujvthcR1yh3i+o8nw6R6L1ldm0AjqHBExedWamztzflRFEdc48PxzA2n/PWCyyvECY9E4BMxN1Yftiln8Z99n9kW6LKG+iHGdmogyZz9KLVvoLykOm51bPX9VMlAH5rDxqDfr8Q/2l09+ifKg4qWaiztx5CzB6O73Ic13NRJMZEflzCGxEQH1s5YzrPldPe6Mgqmv2fYcFeqaRGrJcV71EYPenk7fCxR7IRHkR1ZuvS4YTlfFcW5vTmWhylqs/wnc2S6CeL2DeQ1X7U81EEVbq517vBVbe2VggPsRGxjmywfT8rv+35DHzfWqD8XeiG/Eon1m+en+Q75Pzme35Xd2IR5a/yvfJ+cz2/NW89Twy/FW+T87nCFFsXd0Vjwx/fyoQz00=
+  </data>
+ </layer>
+</map>
