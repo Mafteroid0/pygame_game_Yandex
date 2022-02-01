@@ -8,6 +8,7 @@ from player import Player
 from unclickable_object import Unclickable_object
 from product import Product
 from pytmx.util_pygame import load_pygame
+from chest import Chest
 
 def run():
     pygame.init()
@@ -20,7 +21,6 @@ def run():
     shop_bg_color = (116, 242, 238)  # создание цвета заднего фона
     stats = Stats(screen)
     world_offset = [0, 0]
-    tmxdata = stats.tmxdata
     mainbutton = MainButton(screen, "sprites/main_button.png", 0, 445)
     cart = MainButton(screen, "sprites/cart.png", 0, 0)
     leave = MainButton(screen, "sprites/leave.png", 0, 0)
@@ -30,7 +30,6 @@ def run():
     tovar3 = Product(screen, 1000, 675, 135, "sprites/products/chestt.png", "sprites/products/bwchestt.png", stats)
     player = Player(screen, "sprites/character.png", mainbutton)
     scores = Scores(screen, stats)
-    # stats.render_room(player, mainbutton)
     robot_helper = Unclickable_object(screen, [
         "sprites/robots/robo_1.png",
         "sprites/robots/robo_2.png",
@@ -46,14 +45,16 @@ def run():
         "sprites/robots/robo_2.png",
         "sprites/robots/robo_3.png",
         "sprites/robots/robo_4.png"], 200, 400, 2, stats, scores, 1)
+    chest1 = Chest(screen, "sprites/chest/chest_opened.png", "sprites/chest/chest_closed.png", 100, 100, 0, False, stats)
+
 
 
 
     while True:
         pygame.time.delay(1000 // FPS)
         tmxdata = stats.tmxdata
-        controls.events(screen, mainbutton, stats, scores, cart, tovar, leave, player, robot_helper, tovar1, tovar2, tovar3, robot_helper1, robot_helper2)
-        controls.update(bg_color, screen, mainbutton, scores, stats, cart, tovar, leave, player, shop_bg_color, robot_helper, tovar1, tmxdata, world_offset, tovar2, tovar3, robot_helper1, robot_helper2)
+        controls.events(screen, mainbutton, stats, scores, cart, tovar, leave, player, robot_helper, tovar1, tovar2, tovar3, robot_helper1, robot_helper2, chest1)
+        controls.update(bg_color, screen, mainbutton, scores, stats, cart, tovar, leave, player, shop_bg_color, robot_helper, tovar1, tmxdata, world_offset, tovar2, tovar3, robot_helper1, robot_helper2, chest1)
         player.update_player(stats)
 
 

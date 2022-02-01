@@ -3,7 +3,7 @@ import sys
 import datetime
 from pytmx.util_pygame import load_pygame
 
-def events(screen, mainbutton, stats, scores, cart, tovar, leave, player, robot_helper, tovar1, tovar2, tovar3, robot_helper1, robot_helper2):
+def events(screen, mainbutton, stats, scores, cart, tovar, leave, player, robot_helper, tovar1, tovar2, tovar3, robot_helper1, robot_helper2, chest1):
     """Обработчик событий"""
     for event in pygame.event.get():  # получение всех событий (действий) пользователя
         if event.type == pygame.QUIT:  # если пользователь закрыл игру (нажал на крестик)
@@ -71,7 +71,7 @@ def events(screen, mainbutton, stats, scores, cart, tovar, leave, player, robot_
             elif tovar3.rect.collidepoint(mouse_pos):
                 if stats.score >= tovar3.price_num and stats.shop:
                     stats.score -= tovar3.price_num
-                    stats.robots_1 += 1
+                    chest1.opened = True
                     tovar3.price_num *= 2
                     robot_helper.on = True
 
@@ -114,7 +114,7 @@ def blit_all_tiles(screen, tmxdata, world_offset):
             screen.blit(tile[2], (x_pixel, y_pixel))
 
 
-def update(bg_color, screen, mainbutton, scores, stats, cart, tovar, leave, player, shop_bg_color, robot_helper, tovar1, tmxdata, world_offset, tovar2, tovar3, robot_helper1, robot_helper2):
+def update(bg_color, screen, mainbutton, scores, stats, cart, tovar, leave, player, shop_bg_color, robot_helper, tovar1, tmxdata, world_offset, tovar2, tovar3, robot_helper1, robot_helper2, chest1):
     """Обновление экрана"""
     if stats.maingame:
         # stats.render_room(player)
@@ -130,6 +130,7 @@ def update(bg_color, screen, mainbutton, scores, stats, cart, tovar, leave, play
             robot_helper1.draw()
         if stats.robots_1 >= 3:
             robot_helper2.draw()
+        chest1.draw()
     elif stats.shop:
         screen.fill(shop_bg_color)
         tovar.draw()
