@@ -77,14 +77,14 @@ class Player():
                         self.center_x -= 5.5
                 else:
                     self.center_x -= 5.5
-            if stats.current_room == 0 and self.center_x <= self.screen_rect.left:
+            if stats.current_room == 0 and self.center_x <= self.screen_rect.left and stats.chests_opened >= 1:
                 stats.current_room = 1
                 self.center_x = 960
                 self.center_y = 272
                 stats.render_room(self, self.mainbutton)
+
             self.image = self.moveLeft[self.animcount // 3]
             self.rect = self.image.get_rect()
-            #elf.draw()
             self.animcount += 1
 
 
@@ -92,7 +92,7 @@ class Player():
 
             if self.center_y >= self.screen_rect.top:
                 self.center_y -= 5.5
-            if stats.current_room == 0 and self.center_y <= self.screen_rect.top:
+            if stats.current_room == 0 and self.center_y <= self.screen_rect.top and stats.chests_opened >= 2:
                 stats.current_room = 2
                 self.center_x = 480
                 self.center_y = 544
@@ -118,7 +118,7 @@ class Player():
                 self.center_y = 0
                 stats.render_room(self, self.mainbutton)
 
-            elif stats.current_room == 0 and self.center_y >= self.screen_rect.bottom:
+            elif stats.current_room == 0 and self.center_y >= self.screen_rect.bottom and stats.chests_opened >= 3:
                 stats.current_room = 3
                 self.center_x = 480
                 self.center_y = 0

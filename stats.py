@@ -16,6 +16,7 @@ class Stats():
             self.robots_lvl = int(f.readline())
             if self.robots_lvl <= 0:
                 self.robots_lvl = 1
+            self.chests_opened = int(f.readline())
 
         self.tmxdata = load_pygame("loc2.tmx")
 
